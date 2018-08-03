@@ -79,35 +79,40 @@ test_frontier_functions.py:
         Tests functions.
 
 Schedule API input:
+
         {
-        "url": "https://spectrum.ieee.org", 
-        "last_request_at": 1532006053,
-        "last_request_time": 1, 
-        "final_page": false, 
-        "white_list": false
+                "url": "https://spectrum.ieee.org", 
+                "last_request_at": 1532006053,
+                "last_request_time": 1, 
+                "final_page": false, 
+                "white_list": false
         }
 
 Schedule API output:
+
         {
-        "status": "URL: https://spectrum.ieee.org successfully added into frontier."
+                "status": "URL: https://spectrum.ieee.org successfully added into frontier."
         }
 
 Next API output (no input):
+
         {
-        "final_page": false,
-        "id": "fd29801d0abfdc0f1ba19c84284f79be",
-        "last_request_at": 1532006053,
-        "last_request_time": 1,
-        "url": "https://spectrum.ieee.org",
-        "white_list": false
+                "final_page": false,
+                "id": "fd29801d0abfdc0f1ba19c84284f79be",
+                "last_request_at": 1532006053,
+                "last_request_time": 1,
+                "url": "https://spectrum.ieee.org",
+                "white_list": false
         }
 
 Commit API input:
+
         {
-        "id": "fd29801d0abfdc0f1ba19c84284f79be"
+                "id": "fd29801d0abfdc0f1ba19c84284f79be"
         }
 
 Commit API output:
+
         {
-        "status": "Successfully commit message id fd29801d0abfdc0f1ba19c84284f79be"
+                "status": "Successfully commit message id fd29801d0abfdc0f1ba19c84284f79be"
         }
